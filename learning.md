@@ -10,5 +10,5 @@ Non-Semantic tag --div span
    -orderlist,unorderlist,defination,nested list
 
 12.Link and Navigatio
-  --absolute linl vs nevigation link
+  --absolute link vs nevigation link
   --a teg , (attribute href,targrt,tittle)

@@ -17,6 +17,12 @@
         <ul>
           <li><a href="#skill">Skills</a> </li>
         </ul>
+
+        <ul>
+            <li>
+                <a href="#contuct">Contuct me</a> 
+            </li>
+          </ul>
         
         
     </nav>
@@ -24,29 +30,48 @@
     <header>
         <h1>Yusuf Siyam</h1>
         <p>web developer and lacturar of computer science</p> <hr>
+        <img src="images/siyam.jpg" alt="Siyam" height="150" width="200" boder="20" vspace="">
     </header>
     <!--Section:about me-->
     <section id="About me">
         <h2>About me</h2>
        <p> 5 year <b>expreience</b> in web development</p>
-       <P><strong>Eduction</strong> masters cse eng</P>
+       <P><em>Eduction masters cse eng</em></P>
     </section>
+
+    
 
 <!--Section:skill-->
     <section id="skill">
      <h2>Skills</h2>
-     <ol type="square">
-        <li>html</li>
-        <li>css</li>
-        <li>javascrip
-            <ul>
-                <li>node js</li>
-                <li>rect js</li>
-                <li>mongo js</li>
-            </ul>
-        <li>SIyam</li>
-        </li>
-     </ol>
+     <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+           <tr>
+            <th>Language</th>
+            <th>Exp level</th>
+           </tr>
+        </thead>
+        <body>
+            <tr>
+                <td>Html</td>
+                <td>Expart</td>
+            </tr>
+            <tr>
+                <td>css</td>
+                <td>Expart</td>
+            </tr>
+            <tr>
+                <td>jabascript</td>
+                <td>intermidiate</td>
+            </tr>
+            <tr>
+                <td>noje js</td>
+                <td>beganier</td>
+            </tr>
+
+        </body>
+        
+    </table>
      <dl>
         <dt>HTML</dt>
         <dd>Html is a amrkup language</dd>
@@ -60,7 +85,41 @@
          <li>Water system</li>
         </ol>
     </section>
+    <!--section:contuct-->
+    <section id="contuct">
+        <h2>Contuct me</h2>
+        <form>
+            <div>
+              <label for="nmae">Name:</label>
+                <input type="text" id="name" name="name" required/>
+            </div>
+          
+            <div>
+            <label for="email">Email:</label>
+             <input type="email" id="email" name="email" required/>
+           </div>
 
+            <div>
+             <label for="text_ar">Message:</label>
+            <textarea name="text_ar" id="text_ar" cols="20" rows="10" required></textarea>
+            </div>
+            
+
+            <button type="submit">submit</button>
+            <button type="reset">Clear</button>
+
+        </form>
+
+    </section>
+
+
+    <!--Section:footer-->
+    <footer>
+        <p>&copy;Copyright reserve by anisul</p>
+        <p>Develop with love &hearts;</p>
+        <a href="tel:01521703400">ӜCall ma</a><br>
+        <a href="mailto:mdsiaym2021@gmail.com">Contuct me</a>
+    </footer>
     
 </body>
 </html>
