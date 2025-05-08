@@ -12,3 +12,8 @@ Non-Semantic tag --div span
 12.Link and Navigatio
   --absolute link vs nevigation link
   --a teg , (attribute href,targrt,tittle)
+
+  13.images
+  14.Table
+  14.From
+  15.Deploy(anybody Access)

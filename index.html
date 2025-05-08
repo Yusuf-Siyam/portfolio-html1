@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Front awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+
 </head>
 
+<style>
+    body{
+        background-color: rgb(241, 212, 174);
+        font-family: "Roboto", sans-serif;
+    }
+</style>
+
+
 <body>
-    <nav>
-        <ul>
-          <li>
-            <a href="#About me">About me</a>
-          </li>
-        </ul>
 
-        <ul>
-          <li><a href="#skill">Skills</a> </li>
-        </ul>
+  <header>  <nav>
+    <ul>
+      <li>
+        <a href="#About me">About me</a>
+      </li>
+    </ul>
 
-        <ul>
-            <li>
-                <a href="#contuct">Contuct me</a> 
-            </li>
-          </ul>
-        
-        
-    </nav>
+    <ul>
+      <li><a href="#skill">Skills</a> </li>
+    </ul>
+
+    <ul>
+        <li>
+            <a href="#contuct">Contuct me</a> 
+        </li>
+      </ul>
     
-    <header>
+    
+</nav>
+</header>
+    <main>
+        <!--section:intro-->
+    <section>
         <h1>Yusuf Siyam</h1>
         <p>web developer and lacturar of computer science</p> <hr>
         <img src="images/siyam.jpg" alt="Siyam" height="150" width="200" boder="20" vspace="">
-    </header>
+    </section>
+
     <!--Section:about me-->
     <section id="About me">
         <h2>About me</h2>
        <p> 5 year <b>expreience</b> in web development</p>
        <P><em>Eduction masters cse eng</em></P>
     </section>
-
-    
 
 <!--Section:skill-->
     <section id="skill">
@@ -54,11 +73,11 @@
         <body>
             <tr>
                 <td>Html</td>
-                <td>Expart</td>
+                <td rowspan="2">Expart</td>
             </tr>
             <tr>
                 <td>css</td>
-                <td>Expart</td>
+               
             </tr>
             <tr>
                 <td>jabascript</td>
@@ -77,6 +96,39 @@
         <dd>Html is a amrkup language</dd>
      </dl>
     </section>
+
+    <div>
+        <h3>Skill progress</h3>
+        <label for="file">Html:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+
+    </div>
+    <div>
+        
+        <label for="file">css:</label>
+<progress id="file" value="20" max="100"> 32% </progress>
+
+    </div>
+    <div>
+    
+        <label for="file">Java:</label>
+<progress id="file" value="50" max="100"> 32% </progress>
+
+    </div>
+
+    <div>
+        <h3>Skill per</h3>
+    
+            <label for="disk">Exp</label>
+           <meter id="disk" value="5" min="0" max="10">5 out of 10</meter><br>
+        
+    </div>
+
+    <video width="320" controls>
+        <source src="Assats/vedio.mp4" type="vedio/mp4"/>
+        Your Broswer do not support this vedio
+    </vedio>
+
 <!--Section:projects-->
     <section id="projects">
         <h2>Projects</h2>
@@ -85,10 +137,12 @@
          <li>Water system</li>
         </ol>
     </section>
+
     <!--section:contuct-->
     <section id="contuct">
         <h2>Contuct me</h2>
-        <form>
+        <form action="https://formspree.io/f/mdkgzbnw"
+        method="POST">
             <div>
               <label for="nmae">Name:</label>
                 <input type="text" id="name" name="name" required/>
@@ -97,6 +151,24 @@
             <div>
             <label for="email">Email:</label>
              <input type="email" id="email" name="email" required/>
+           </div>
+
+           <div>
+            <label for="age">Age:</label>
+             <input type="number" id="age" name="age" min="18" required/>
+           </div>
+           <div>
+            <label for="">uplod image</label>
+            <input type="file" id="image" name="image" accept="image/*"/>
+           </div>
+
+           <div>
+            <label for="subject">Subject:</label>
+            <select name="subject" id="subject">
+            <option value="inquiry">Inquiry</option>
+            <option value="job">Job oppor</option>
+            </select>
+
            </div>
 
             <div>
@@ -109,18 +181,51 @@
             <button type="reset">Clear</button>
 
         </form>
-
     </section>
 
+    </main>
+    
 
-    <!--Section:footer-->
+    <!--footer-->
     <footer>
-        <p>&copy;Copyright reserve by anisul</p>
-        <p>Develop with love &hearts;</p>
-        <a href="tel:01521703400">ӜCall ma</a><br>
-        <a href="mailto:mdsiaym2021@gmail.com">Contuct me</a>
+        <div>
+            <p>&copy;Copyright reserve by anisul</p>
+            <p>Develop with love &hearts;</p>
+            <a href="tel:01521703400">ӜCall ma</a><br>
+            <a href="mailto:mdsiaym2021@gmail.com">Contuct me</a>
+            <h3>Follow me</h3>
+            <ul>
+                <li>
+                    <a href= "https://www.facebook.com/" target="blank">
+                        <i class="fa-brands fa-facebook"></i>
+                        facebook page
+                    </a>
+                </li>
+    
+            
+                <li>
+                    <a href= "http//:www.Youtube.com/" target="blank">
+                        <i class="fa-brands fa-youtube"></i>
+                        Youtube 
+                    </a>
+                </li>
+    
+                <li>
+                    <a href= "http//:www.linkedin.com/" target="blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        linkdin 
+                    </a>
+                </li>
+    
+            </ul>
+        </div>
+
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.2015272302265!2d90.5796387!3d23.87532230000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755cc941fb8bf29%3A0xbabffcdac7915bd1!2sAtlapur%20Bazar%2C%20Atlapur%20Rd%2C%20Bholabo%20Union%201720!5e0!3m2!1sen!2sbd!4v1746712581951!5m2!1sen!2sbd" width="500" height="300" title="My home"
+            ="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+ 
     </footer>
     
 </body>
 </html>
-<!--fi-->
