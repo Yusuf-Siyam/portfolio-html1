@@ -17,3 +17,12 @@ Non-Semantic tag --div span
   14.Table
   14.From
   15.Deploy(anybody Access)
+
+  Intermidiate Html(Part-2)
+  --adding front awasome and google maps
+  --adding vedio
+  --adding progress rate
+  --aading meter
+
+  Intermidiate
+  --data list
