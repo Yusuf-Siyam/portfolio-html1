@@ -7,49 +7,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="
     sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous"
      referrerpolicy="no-referrer" />
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+     <!-- google fon-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 
-<!--Style -->
-<style>
-    body{
-        background-color: rgb(250, 231, 201);
-        font-family: "Roboto", sans-serif;
-    }
-</style>
-
+<body>  
 <!--Header er modde Naveer-->
   <header> 
      <nav>
     <ul>
       <li>
-        <a href="#about me">About me</a>
+        <a href="#about me" id="link1">About me</a>
       </li>
     </ul>
 
     <ul>
-      <li><a href="#skill">Skills</a> </li>
+      <li><a href="#skill" class="id-link">Skills</a> </li>
     </ul>
 
     <ul>
         <li>
-            <a href="#contuct">Contuct me</a> 
+            <a href="#contuct" class="id-link">Contuct me</a> 
         </li>
       </ul>    
 </nav>
   </header>
 
-   <!--Main Section-->
+   <!--------Main Section-------------->
 <main>
-<body>  
-        <h1>MD Yusuf Siyam</h1>
+    <section id="intro">
+        <div class="card">
+             <h1>MD Yusuf Siyam</h1>
         <p><b>Computer Science & Engineering | 3rd Year Student</b></p>
-            <p>United International University, Dhaka</p> <hr>
+            <p>United International University, Dhaka</p> 
+     </section>
+        </div>
 
+       
     <!--section:About Me-->        
-            <section id="about me">
+            <section id="card">
                 <img src="images/siyam.jpg"height="250"/>
 
             <h2>About Me</h2>
@@ -63,7 +63,7 @@
     </head>
 
     <!--section:Skills and Expertise-->
-    <section id="skill">
+    <section id="card">
         <h2>Skills and Expertise:</h2>
             <ul type="squre">
                 <li>HTML</li>
@@ -72,40 +72,6 @@
                 <li>NODE JS</li>
                 <li>RECT JS</li>
             </ul>
-
-            <div>
-                <h3>Skill progress</h3>
-                <label for="file">html:</label>
-            <progress id="file" value="32" max="100"> 32% </progress>
-            </div>
-            
-            <div>
-                <label for="file">css:</label>
-               <progress id="file" value="40" max="100"> 32% </progress>
-            </div>
-
-            <div>
-                <label for="file">javascript:</label>
-            <progress id="file" value="20" max="100"> 32% </progress>
-            </div>
-
-            <div>
-               
-                <label for="file">node js:</label>
-            <progress id="file" value="32" max="100"> 32% </progress>
-            </div>
-            <div>
-               
-                <label for="file">rect js:</label>
-            <progress id="file" value="32" max="100"> 32% </progress>
-            </div>
-            <!--Skill Percantage-->
-            <div>
-                <h3>Skill percantage</h3>
-            
-                    <label for="disk">Exp</label>
-                   <meter id="disk" value="5" min="0" max="10">5 out of 10</meter><br>
-            </div>
 
         <h2>Areas of Expertise:</h2>
             <ol>
@@ -120,7 +86,7 @@
 
     <!--section:3.Projects-->
     
-    <section id="projects">
+    <section id="card">
         <h2>Project Showcase</h2>
         <div>
             <ul>
@@ -164,7 +130,8 @@
     <!--section:4.Education and Experience-->
     <section>
         <h2> Education and Experience</h2>
-        <table border="1" cellpadding="5" cellspacing="0">
+       <!--<table border="1" cellpadding="5" cellspacing="0"> --> 
+        <table>
             <thead>
                 <td>Institution</td>
                 <td>Degree</td>
@@ -274,7 +241,8 @@
         <a href="mailto:mdsiaym1011@gmail.com">📨 Mail Me</a>
         </div>
 
-      <div>
+      <div class="social-media">
+        <div>
         <ul>
             <li>
                 <a href="https://www.facebook.com/" target="_blank">
@@ -283,6 +251,7 @@
             </li>
         </ul>
       </div>
+
       <div>
       <ul>
         <li>
@@ -292,6 +261,7 @@
         </li>
     </ul>
       </div>
+
    <div>
     <ul>
         <li>
@@ -310,6 +280,7 @@
             </a>
         </li>
     </ul>
+   </div>
    </div>
 
    <div>
